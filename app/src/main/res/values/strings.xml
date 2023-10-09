@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">My Name</string>
+    <string name="yellow_Star">Yello Star</string>
+    <string name="bio_string">Full Stack Developer  Web Enthusiast
+\n Associate Developer  Computer Scienctist  Performance Athlete
+\n Technology Enthusiast |Leadership Excellence
+\n Crafting digital experiences from frontend to backend.
+\n Passionate about creating user-friendly and efficient web applications.
+\n Skills:
+\n Frontend: HTML, CSS, JavaScript, React.js
+\n Backend: Node.js, Express.js
+\n Database: MongoDB, SQL
+\n DevOps: Docker, Kubernetes
+\n Version Control: Git
+\n UI/UX Design: Figma
+\n Problem-Solver  Code Optimizer
+\n Portfolio: https://github.com/Stallion67
+\n Contact: https://www.linkedin.com/in/ben-mwaka-4b55096a/
+
+    </string>
+    <string name="done">Done</string>
 </resources>
