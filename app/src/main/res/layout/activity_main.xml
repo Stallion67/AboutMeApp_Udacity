@@ -4,6 +4,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
    >
+
+    <data>
+        <variable
+            name="myName"
+            type="com.example.myapplication.MyName" />
+    </data>
 <!--    tools:context=".MainActivity">-->
 
     <LinearLayout
@@ -15,7 +21,7 @@
             android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="OKELLO BEN MWAKA"
+            android:text="@={myName.name}"
             style="@style/NameStyle" />
 
         <EditText
@@ -46,10 +52,11 @@
             android:id="@+id/tv_nickname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
+
             style="@style/textStyle"
             android:visibility="gone"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:text="@={myName.nickname}"/>
 
         <ImageView
             android:id="@+id/imgStar"
